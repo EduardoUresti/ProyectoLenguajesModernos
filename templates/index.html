@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenido a Mi Tienda</h1>
+    <p class="lead">Gestione su inventario de manera eficiente.</p>
+    <hr class="my-4">
+    <p>Inicie sesión o regístrese para comenzar.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}" role="button">Iniciar Sesión</a>
+    <a class="btn btn-secondary btn-lg" href="{{ url_for('register') }}" role="button">Registrarse</a>
+</div>
+{% endblock %}
