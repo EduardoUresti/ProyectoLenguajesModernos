@@ -11,7 +11,7 @@ conexion = mysql.connector.connect(
     host="localhost",
     user="root",
     password="password",
-    database="tiendasoftware"
+    database="tienda"
 )
 
 cursor = conexion.cursor()
